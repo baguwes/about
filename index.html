@@ -1,4 +1,4 @@
-<html lang="en">
+<html lang="id" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -6,6 +6,7 @@
     <title>about Bagos Rizky Rinaldi</title>
     <script type="text/javascript" src="./js/script.js" crossorigin="anonymous"></script>
     <script type="text/javascript" src="./js/sc.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./js/dark-mode.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/style.css" crossorigin="anonymous" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Fira Code' rel='stylesheet'>
@@ -19,7 +20,7 @@
     <div class="main">
         <div class="page-top animated fadeInDown">
     <ul class="nav">
-        <li><a href="/" title="">Home</a></li>
+        <li><a href="/about" title="">Home</a></li>
         <li><a href="/post/" title="">Posts</a></li>
         <li><a href="/portofolio/" title="">Portofolio</a></li> 
     </ul>
@@ -84,5 +85,15 @@
         ga('send', 'pageview');
     }
 </script>
+<script>
+    function darkMode() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
 </body>
 </html>
