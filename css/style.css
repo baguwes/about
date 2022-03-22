@@ -62,10 +62,10 @@
 }
 .content{height:auto;
     float:right;
-    width:60%;
-    margin-top:60px;
+    width:70%;
+    margin-top:70px;
 }
-.page-top{width:60%;
+.page-top{width:70%;
     position:fixed;
     right:0;
     z-index:3;
@@ -85,7 +85,7 @@
     padding-bottom:22px;
     border-bottom:1px solid var(--nav-text-color)}
     .page-top .themeswitcher{list-style:none;
-    padding:15px 30px;
+    padding:10px 20px;
     float:right;
     font-size:1.6em}
     .page-top .information{float:right;
@@ -100,7 +100,7 @@
     margin-right:-10px}
     .page-top .information .back_btn li{display:initial;
     padding-right:40px}
-    .sidebar{width:40%;
+    .sidebar{width:30%;
     -webkit-background-size:cover;
     background-size:cover;
     background-color:var(--bg-color);
@@ -112,20 +112,20 @@
     border-right:1px solid var(--border-color);
 }
 .sidebar .logo-title{text-align:center;
-    padding-top:240px}
-    .sidebar .logo-title .description{font-size:14px}
+    padding-top:50px}
+    .sidebar .logo-title .description{font-size:20px}
     .sidebar .logo-title .logo{margin:0 auto}
-    .sidebar .logo-title .title img{width:127px;
+    .sidebar .logo-title .title img{width:150px;
     border-radius:50%}
     .sidebar .logo-title .title h3{text-transform:uppercase;
-    font-size:2rem;
+    font-size:20px;
     font-weight:700;
     letter-spacing:2px;
     line-height:1;
     margin:1em}
     .sidebar .logo-title .title a{text-decoration:none;
     color:var(--heading-color);
-    font-size:2rem;
+    font-size:20px;
     font-weight:700}
     .sidebar .social-links{list-style:none;
     padding:0;
