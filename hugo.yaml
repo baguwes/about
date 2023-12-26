@@ -1,0 +1,8 @@
+baseURL: https://baguwes.github.io/
+languageCode: en-us
+params:
+  contact:
+    email: baguwes@gmail.com
+    phone: +62 896-7800-0280
+  subtitle: The Best Widgets on Earth
+title: ABC Widgets, Inc.
